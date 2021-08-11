@@ -3,6 +3,27 @@ header {
   border: 5px solid black;
 }
 
+.big {
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.low {
+  background-color: greenyellow;
+}
+
+.med {
+  background-color: orange;
+}
+
+.high {
+  background-color: red;
+}
+
 .mainBox {
   display: flex;
   flex-wrap: wrap;
