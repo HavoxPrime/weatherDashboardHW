@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+    <head>
+        <title>WeatherDashboard</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <header>
+            <h2>Weather Dashboard</h2>
+        </header>
+        <br>
+        <section class="mainBox">
+            <section class="citiesBox">
+                <div class="input-group mb-3">
+                    <button class="btn btn-outline-secondary" type="button" id="submitBtn">Submit</button>
+                    <input type="text" class="form-control" placeholder="City" aria-label="City" aria-describedby="addon-wrapping">
+                </div>
+                <div class="prevCities"></div>
+            </section>
+            <section class="mainBox">
+                <h2>Day forcast :</h2>
+                <section class="dayBox container-sm"></section>
+                <br>
+                <h2>Week Forcast:</h2>
+                <section class="weekBox" id="weekDay1"></section>
+                <section class="weekBox" id="weekDay2"></section>
+                <section class="weekBox" id="weekDay3"></section>
+                <section class="weekBox" id="weekDay4"></section>
+                <section class="weekBox" id="weekDay5"></section>
+            </section>
+        </section>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/js/bootstrap.min.js" integrity="sha512-NWNl2ZLgVBoi6lTcMsHgCQyrZVFnSmcaa3zRv0L3aoGXshwoxkGs3esa9zwQHsChGRL4aLDnJjJJeP6MjPX46Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    </body>
+</html>
